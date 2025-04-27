@@ -1,6 +1,9 @@
 # Local Area Network (LAN) Topologies
 ---
 
+![ChatGPT Image 27 avr  2025, 19_19_59](https://github.com/user-attachments/assets/5dc49de0-5db1-475b-920c-1db46f9d3e29)
+
+
 ## 📚 What is a Topology?
 
 In networking, **topology** refers to the physical or logical layout of a network — how devices are connected to each other.
