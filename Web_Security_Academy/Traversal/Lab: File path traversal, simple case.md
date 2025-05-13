@@ -3,10 +3,6 @@ This lab contains a path traversal vulnerability in the display of product image
 To solve the lab, retrieve the contents of the /etc/passwd file.
 
 
-![alt text](<Screenshot 2025-05-13 at 22.57.05.png>)
-
-
-
 ✅ Steps
 
 Open the lab and intercept a request for a product image in Burp Suite:
