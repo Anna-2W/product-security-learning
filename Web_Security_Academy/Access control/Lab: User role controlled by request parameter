@@ -1,0 +1,37 @@
+This lab has an admin panel at /admin, which identifies administrators using a forgeable cookie.
+
+Solve the lab by accessing the admin panel and using it to delete the user carlos.
+
+You can log in to your own account using the following credentials: wiener:peter
+---
+
+🛠️ Steps to Solve
+Log in as a regular user
+Use the provided credentials:
+
+Username: wiener
+Password: peter
+
+Browse the application
+After login, navigate around the site and look at the cookies stored in your browser.
+
+You’ll probably see a cookie like:
+Admin=false
+
+This hints that admin status is controlled client-side using a simple cookie.
+Try to access /admin
+Go to /admin — you’ll likely be blocked or redirected since you're not an admin.
+Modify the cookie
+
+Change the Admin=false cookie to Admin=true using browser dev tools or an intercepting proxy like Burp Suite.
+
+Refresh the page or revisit /admin.
+
+Access the admin panel
+
+Now, you should be able to access the admin functionality.
+
+Delete Carlos
+
+✅ Lab solved!
+
